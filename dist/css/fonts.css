@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'IBM Plex Sans Thai';
+    src:
+        url('https://cdn.lazywasabi.net/fonts/IBMPlexSansThai/IBMPlexSansThai-Regular.woff2')
+        format('woff2'),
+        url('https://cdn.lazywasabi.net/fonts/IBMPlexSansThai/IBMPlexSansThai-Regular.woff')
+        format('woff');
+    font-style: normal;
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans Thai';
+    src:
+        url('https://cdn.lazywasabi.net/fonts/IBMPlexSansThai/IBMPlexSansThai-Bold.woff2')
+        format('woff2'),
+        url('https://cdn.lazywasabi.net/fonts/IBMPlexSansThai/IBMPlexSansThai-Bold.woff')
+        format('woff');
+    font-style: normal;
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBM Plex Sans Thai';
+    src:
+        url('https://cdn.lazywasabi.net/fonts/IBMPlexSansThai/IBMPlexSansThai-SemiBold.woff2')
+        format('woff2'),
+        url('https://cdn.lazywasabi.net/fonts/IBMPlexSansThai/IBMPlexSansThai-SemiBold.woff')
+        format('woff');
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+}
+
+.theme-font {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.regular-font {
+    font-weight: normal;
+}
+
+.semi-bold-font {
+    font-weight: 500;
+}
+
+.bold-font {
+    font-weight: bold;
+}
+
+.compressed-text-space {
+    letter-spacing: -0.02em;
+}
+
+p, h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
