@@ -149,13 +149,13 @@
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-input[type="text"] {
+input {
   font-family: inherit;
   padding-left: 13px;
   padding-top: 4px;
 }
 
-input[type="text"].borderless {
+input.borderless {
   width: 99%;
   height: 82%;
   border: transparent;
@@ -163,16 +163,16 @@ input[type="text"].borderless {
   border-left: 1px solid #e8e8e8;;
 }
 
-input[type="text"]:focus {
+input:focus {
   outline: none;
 }
 
-input[type="text"]:focus + div#navbar-search-suggest, div#navbar-search-suggest:hover {
+input:focus + div#navbar-search-suggest, div#navbar-search-suggest:hover {
   visibility: visible !important;
   opacity: 1 !important;
 }
 
-input[type="text"] + div#navbar-search-suggest {
+input + div#navbar-search-suggest {
   visibility: hidden;
   opacity: 0;
 }
