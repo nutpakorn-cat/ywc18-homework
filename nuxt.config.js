@@ -45,6 +45,7 @@ export default {
   build: {
   },
 
+  target: 'static',
   router: {
     base: '/ywc18-homework/dist/'
   }
