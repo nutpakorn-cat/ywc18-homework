@@ -9,18 +9,7 @@
         <div id="navbar-search-box">
           <div class="row">
             <div class="min-width-192-px responsive-hidden">
-              <div class="custom-select scrollable borderless">
-                <select>
-                  <option value="0">พื้นที่ใกล้ฉัน</option>
-                  <option value="1">พื้นที่ใกล้ฉัน</option>
-                  <option value="2">สถานที่ทั้งหมด</option>
-                  <option value="3">กระบี่</option>
-                  <option value="4">กรุงเทพมหานคร</option>
-                  <option value="5">กาญจนบุรี</option>
-                  <option value="6">กาฬสินธุ์</option>
-                  <option value="5">กาญจนบุรี</option>
-                </select>
-              </div>
+              <ProvinceSelectBox class="scrollable borderless" />
             </div>
             <div class="col-8">
               <input type="text" placeholder="ค้นหา ชื่อ ร้านอาหาร และเครื่องดื่ม ร้านธงฟ้า ร้านค้า OTOP และสินค้าทั่วไป" class="borderless">
